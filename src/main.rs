@@ -158,7 +158,7 @@ fn main_server() {
     let listner = TcpListener::bind("127.0.0.1:7878");
 
     // Comment the above listner and un-comment the below listner.
-    // From devices on the same Wifi go to "http://192.168.29.212:7878" where the IP is the system's IP address and Port is the specified Port.
+    // From devices on the same Wifi go to "http://{your.system.IP}:7878" where the IP is the system's IP address and Port is the specified Port.
     // The server will serve files to the devices on the same WIFI as well.
     
     // let listner = TcpListener::bind("0.0.0.0:7878");
